@@ -1,6 +1,6 @@
-const express = require("express");
-const cors = require("cors");
-const { SerialPort } = require("serialport");
+import express from "express";
+import cors from "cors";
+import { SerialPort } from "serialport";
 
 const app = express();
 app.use(cors());
